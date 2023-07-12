@@ -34,6 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <DarkContext.Provider value={dark}>
           <div className="min-h-screen text-slate-900 dark:bg-slate-900 dark:text-slate-100">
             <Header dark={dark} setDark={setDark} />
+            <h1>Anything but.. Ordinary</h1>
             <main className="mx-auto flex flex-col items-center">
               <Component {...pageProps} />
             </main>
